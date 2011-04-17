@@ -1,0 +1,17 @@
+#
+# LDAP server connection info:
+# This should be the uri of the ldap server. 
+# ldap:// defaults to port 389, ldaps:// defaults to 636.
+# If using a different port, specify the port number after the domain component
+# 
+ldapUri = "ldap://ldap.example.com/"
+
+# This needs to be a user that has sufficient rights to read the ssh keys
+bindDn = "cn=user,dc=example,dc=com"
+ldapPass = "password"
+
+# The search base
+base = "dc=example,dc=com"
+
+# Relative distinguished name
+rdn = "cn="
