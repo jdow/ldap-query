@@ -1,0 +1,4 @@
+1. copy ldapconf.py.dist to ldapconf.py
+2. edit ldapconf.py and fill in the binduser credentials
+3. run ./ldap-query.py <username>
+4. optionally redirect the output to an authrized_keys file
