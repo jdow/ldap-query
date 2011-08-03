@@ -12,6 +12,3 @@ ldapPass = "password"
 
 # The search base
 base = "dc=example,dc=com"
-
-# Relative distinguished name
-rdn = "cn="
